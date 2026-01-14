@@ -3,7 +3,7 @@
 ## Student Details
 | Field | Value |
 | :--- | :--- |
-| **Name** | ** Vaibhav Singh ** |
+| **Name** | **Vaibhav Singh** |
 | **COURSE** | **B.Tech in CSE** |
 | **Roll Number** | **72** |
 | **Section/Group** | **A** |
