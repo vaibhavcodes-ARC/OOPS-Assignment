@@ -51,4 +51,3 @@ Example: `mod_01_prog_01.cpp`
 - Correct indentation
 - Comments included where required
 
-# OOPS-Assignment
