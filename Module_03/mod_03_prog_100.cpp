@@ -1,6 +1,7 @@
 // Program 100: Pure virtual function & abstract class
 #include <iostream>
-
+
+
 using namespace std;
 // Abstract Class
 class Shape {
@@ -18,8 +19,8 @@ public:
 
 int main() {
     // Shape s; // Error: Cannot instantiate abstract class
-    Rectangle r;
-    r.draw();
+    Rectangle rect;
+    rect.draw();
 
     return 0;
 }

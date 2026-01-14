@@ -1,23 +1,24 @@
 // Program 50: Count objects (static var)
 #include <iostream>
-
+
+
 using namespace std;
 class Counter {
 private:
-    static int count;
+    static int objectCount;
 
 public:
     Counter() {
-        count++;
+        objectCount++;
     }
 
     static void showCount() {
-        cout << "Number of objects created: " << count << endl;
+        cout << "Number of objects created: " << objectCount << endl;
     }
 };
 
 // Initialize static member
-int Counter::count = 0;
+int Counter::objectCount = 0;
 
 int main() {
     Counter::showCount();

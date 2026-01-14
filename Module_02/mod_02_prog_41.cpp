@@ -1,6 +1,7 @@
 // Program 41: Simple class and object
 #include <iostream>
-
+
+
 using namespace std;
 class Person {
 public:
@@ -13,16 +14,16 @@ public:
 };
 
 int main() {
-    Person p1;
-    p1.name = "Alice";
-    p1.age = 25;
+    Person person1;
+    person1.name = "Alice";
+    person1.age = 25;
 
-    Person p2;
-    p2.name = "Bob";
-    p2.age = 30;
+    Person person2;
+    person2.name = "Bob";
+    person2.age = 30;
 
-    p1.introduce();
-    p2.introduce();
+    person1.introduce();
+    person2.introduce();
 
     return 0;
 }
